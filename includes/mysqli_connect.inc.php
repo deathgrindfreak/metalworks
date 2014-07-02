@@ -2,10 +2,10 @@
 
 
 // Set the database user info as constants
-define("DB_HOST", "localhost");
-define("DB_USER", "sciencefair");
-define("DB_PASSWORD", "sciencefair");
-define("DB_NAME", "SF_S14");
+define("DB_HOST", "YOUR_HOST_NAME");
+define("DB_USER", "YOUR_USER_NAME");
+define("DB_PASSWORD", "YOUR_PASSWORD");
+define("DB_NAME", "YOUR_DB_NAME");
 
 //Make the connections
 try {
