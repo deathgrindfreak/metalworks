@@ -1,0 +1,118 @@
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+#thread_page_header {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    height: 100px;
+    width: 935px;
+}
+
+#thread_header {
+    background-color: #FF5500;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    height: 27px;
+    margin: 0 auto;
+    padding-left: 5px;
+    border-bottom: 1px solid #222;
+    box-shadow: 0px 4px 4px #030303;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#thread {
+    margin-top: 1px;
+    width: 935px;
+    background-color: #efefef;
+    -webkit-box-shadow: 4px 4px 4px #030303;
+    -moz-box-shadow: 4px 4px 4px #030303;
+    box-shadow: 4px 4px 4px #030303;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#user_name {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#user_name a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#user_name a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#user_name a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#user_name a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#thread_body {
+    padding: 10px;
+    padding-bottom: 45px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+#thread_text {
+    width: 700px;
+    float: right;
+}
+
+#user_emblem {
+    background-color: #e1e1e2;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    height: 12px;
+    width: 80px;
+    padding: 5px;
+    padding-bottom: 8px;
+    margin: 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#avatar_link:link {
+    color: #000;
+    text-decoration: none;
+}
+
+#avatar_link:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+#avatar_link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+#avatar_link:active {
+    color: #000;
+    text-decoration: none;
+}

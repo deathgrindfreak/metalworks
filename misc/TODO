@@ -1,0 +1,12 @@
+#TODO
+
+* perform form validation with javascript
+* possibly add a breadcrumb bar
+* going back to previous page doesn't work with passed variables
+* add quoting features to newreply.php
+* add a function to thread_functions that calculates the total number of posts and thus pages
+* add features for dividing threads and posts to different pages for both forum.php and showthread.php
+* perhaps add functionality for deleting posts/threads
+* ensure that all dbc connections are close
+* fix newreply and newthread
+* fix pages for comments
