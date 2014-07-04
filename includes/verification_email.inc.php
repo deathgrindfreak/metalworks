@@ -7,9 +7,9 @@ function ver_email($email, $user, $pass, $hash) {
     // Pear Mail Library
     require_once "Mail.php";
     
-    $confirm = 'http://' . $_SERVER['HTTP_HOST'] . '/webdev-project/verify.php?email=' . $email . '&hash=' . $hash;
+    $confirm = 'http://' . $_SERVER['HTTP_HOST'] . '/verify.php?email=' . $email . '&hash=' . $hash;
     
-    $from = 'john.cooper.bell@gmail.com';
+    $from = 'YOUR_EMAIL';
     $subject = 'Login Verification for MetalWorks';
     $message = '
 
@@ -40,8 +40,8 @@ function ver_email($email, $user, $pass, $hash) {
         'host' => 'ssl://smtp.gmail.com',
         'port' => '465',
         'auth' => true,
-        'username' => 'john.cooper.bell@gmail.com',
-        'password' => 'calabiyau'
+        'username' => 'YOUR_EMAIL',
+        'password' => 'YOUR_PASSWORD'
     ));
 
     $mail = $smtp->send($email, $headers, $message);
@@ -68,7 +68,7 @@ function pass_reset_email($email, $user) {
     // Pear Mail Library
     require_once "Mail.php";
     
-    $from = 'john.cooper.bell@gmail.com';
+    $from = 'YOUR_EMAIL';
     $subject = 'Your New Password for MetalWorks';
     $message = '
 
@@ -98,8 +98,8 @@ function pass_reset_email($email, $user) {
         'host' => 'ssl://smtp.gmail.com',
         'port' => '465',
         'auth' => true,
-        'username' => 'john.cooper.bell@gmail.com',
-        'password' => 'calabiyau'
+        'username' => 'YOUR_EMAIL',
+        'password' => 'YOUR_PASSWORD'
     ));
 
     $mail = $smtp->send($email, $headers, $message);
